@@ -7,3 +7,4 @@ class JournalSerializer(ModelSerializer):
 
     class Meta:
         model = Journal
+        fields = '__all__'
